@@ -199,5 +199,5 @@ if uploaded_file is not None:
         
         simulation_data = get_contribution(data, model, feature_list, variable_selected, granularity_list)
         
-        sim_chart_data = simulation_data.sum()
-        st.line_chart(sim_chart_data)
+#        sim_chart_data = simulation_data.sum()
+#        st.line_chart(sim_chart_data)
